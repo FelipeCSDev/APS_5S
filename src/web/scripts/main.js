@@ -49,9 +49,6 @@ function onProgramStart() {
   window.moveTo(0, 0);
   window.resizeTo(screen.availWidth, screen.availHeight);
   eel.onStart();
-
-  showMenu();
-  changeScreen("dashboard");
 }
 
 onProgramStart();
