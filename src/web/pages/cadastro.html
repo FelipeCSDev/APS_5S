@@ -5,7 +5,7 @@
 <main id="main_cadastro" class="cadastro">
   <form>
     <h2>CADASTRAR NOVO DESPEJO</h2>
-    <label for="cadastro-empresa">Empresa</label>
+    <label for="cadastro-empresa">Nome da Empresa</label>
     <input
       id="cadastro-empresa"
       type="text"
@@ -37,10 +37,14 @@
     <input
       id="cadastro-descricao"
       type="text"
-      placeholder="Descreva um pouco sobre a inspeção realizada"
+      placeholder="Descreva resumidamente sobre a inspeção realizada"
     />
 
-    <button type="button" class="login__form__btn" onclick="cadastrar()">
+    <button
+      type="button"
+      class="login__form__btn__despejo"
+      onclick="cadastrar()"
+    >
       CADASTRAR DESPEJO
     </button>
   </form>
